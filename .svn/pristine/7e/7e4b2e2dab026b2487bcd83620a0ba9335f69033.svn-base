@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0e31476-7646-47a6-a6db-ed898f74b666" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hSVX4DKs8OZEz25H7vsIYdvvkL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e31476-7646-47a6-a6db-ed898f74b666" name="Default Changelist" comment="" />
+      <created>1600004516519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600004516519</updated>
+      <workItem from="1600004520538" duration="5352000" />
+      <workItem from="1600094276822" duration="2055000" />
+      <workItem from="1600176199280" duration="4387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="481" y="342" key="NewPhpFileDialog" timestamp="1600177460134">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="481" y="342" key="NewPhpFileDialog/44.23.1236.777@44.23.1236.777" timestamp="1600177460134" />
+    <state x="327" y="186" key="run.anything.popup" timestamp="1600005540861">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="327" y="186" key="run.anything.popup/44.23.1236.777@44.23.1236.777" timestamp="1600005540861" />
+  </component>
+</project>

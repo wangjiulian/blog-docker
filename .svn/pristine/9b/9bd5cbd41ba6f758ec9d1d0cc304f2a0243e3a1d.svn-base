@@ -1,0 +1,4 @@
+cd ./docker
+docker-compose -p docker-nginx-php kill php-fpm
+docker-compose -p docker-nginx-php kill php_nginx
+docker-compose -p docker-nginx-php up -d

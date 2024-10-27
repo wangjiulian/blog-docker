@@ -1,0 +1,32 @@
+version: "2"
+services:
+  php-fpm:
+    # image: php:8.3-fpm
+    build: .
+    depends_on:
+      - redis
+    volumes:
+    - ../:/www
+    networks:
+      - code-network
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ../:/usr/share/nginx/html/
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "180:80"
+      - "1443:443"
+    networks:
+      - code-network
+  redis:
+    image: redis:4.0
+    networks:
+      - code-network
+
+
+networks:
+  code-network:
+    driver: bridge

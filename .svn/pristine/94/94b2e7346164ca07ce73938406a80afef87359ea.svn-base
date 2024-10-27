@@ -1,0 +1,27 @@
+version: "2"
+services:
+  php-fpm:
+    image: php:7.3-fpm
+    volumes:
+    - ../:/www
+    networks:
+      - code-network
+
+  php_nginx:
+    image: nginx
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ../:/usr/share/nginx/html/
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "18087:80"
+      - "18088:443"
+    networks:
+      - code-network
+  redis_nginx:
+    image: redis:4.0
+    networks:
+      - code-network
+networks:
+  code-network:
+    driver: bridge
